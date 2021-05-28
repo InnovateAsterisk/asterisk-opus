@@ -1,6 +1,6 @@
 # Opus Codec for Asterisk 
 
-*Digium, currently do not provide an ARM binary version of opus codec for Astersik.* 
+**Digium, currently do not provide an ARM binary version of opus codec for Astersik.** 
 
 Since Asterisk 13.12 (and Asterisk 14.0.1), Opus is not only supported for pass-through but can be transcoded as well. This allows you to translate to/from other audio codecs like those for landline telephones (ISDN: G.711; DECT: G.726-32; and HD: G.722) or mobile phones (GSM, AMR, AMR-WB, 3GPP EVS). This can be achieved by enabling `codec_opus` via `make menuselect`.
 
